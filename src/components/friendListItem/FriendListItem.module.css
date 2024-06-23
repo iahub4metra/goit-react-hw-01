@@ -1,0 +1,25 @@
+.friendListItemContainer {
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.friendListItemContainer img {
+    margin-bottom: 8px;
+}
+
+.friendListItemContainer p {
+    text-align: center;
+}
+
+.friendListItemStatus {
+    font-size: 14px;
+}
+
+.friendListItemStatus.online {
+    color: green;
+}
+
+.friendListItemStatus.offline {
+    color: red;
+}
